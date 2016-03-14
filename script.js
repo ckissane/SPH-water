@@ -299,7 +299,7 @@ var initialize = (function() {
             press = false;
         }, false);
         delta = new Date();
-        window.setInterval(frame, 1000/30);
+        window.setInterval(frame, 100);
         //window.setInterval(tick, 1);
         window.setInterval(calc, 1);
     };

@@ -116,7 +116,7 @@ var initialize = (function() {
             var p = particles[i];
             //var grd = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, p.size / 2);
 
-            ctx.fillStyle = "blue";
+            ctx.fillStyle = "lightblue";
 
             ctx.beginPath();
             ctx.arc(p.x, p.y, p.size / 8, 0, 2 * Math.PI, false);
